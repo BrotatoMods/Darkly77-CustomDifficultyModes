@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/difficulties/diff_heaven_hell/diff_heaven_hell.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/difficulties/diff_no_hit_d2/diff_no_hit_d2.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/difficulties/diff_no_hit_d5/diff_nohit_d5.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 1 )
+characters = [  ]
+items = [  ]
+weapons = [  ]
+weapons_characters = [  ]
+sets = [  ]
+challenges = [  ]
+upgrades = [  ]
+consumables = [  ]
+elites = [  ]
+difficulties = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ]
+debug_items = [  ]
+debug_weapons = [  ]
