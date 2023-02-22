@@ -44,7 +44,10 @@ One approach to fix this would be to make it so that custom difficulties add an 
 - You can still list the effects in the difficulty's effects with *null_effect.gd*, using custom translated strings.
 - Then you can use a starting item effect to add your custom item.
     - Vanilla's `effect_starting_item` doesn't work for this, because it adds items after the weapon selection, which is too soon for the difficulty's item to be added.
-    - However, BFX now offers custom effects that *can* do this. [See here](https://github.com/BrotatoMods/Brotato-BFX#custom-difficulties) in the BFX readme for more info.
+    - However, BFX now offers custom effects that *can* do this:
+        - `bfx_starting_difficulty_item`
+        - `bfx_starting_difficulty_weapon`
+        - [See here](https://github.com/BrotatoMods/Brotato-BFX#custom-difficulties) in the BFX readme for more info.
 
 ## Screenshots
 
