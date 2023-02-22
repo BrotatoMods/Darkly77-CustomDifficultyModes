@@ -5,7 +5,9 @@
 	"description": "Custom difficulty modes",
 	"website_url": "https://github.com/BrotatoMods/Darkly77-CustomDifficultyModes",
 	"dependencies": [
-		"Darkly77-ContentLoader"
+		"Darkly77-BFX",
+		"Darkly77-ContentLoader",
+		"dami-MoreTiers"
 	],
 	"extra": {
 		"godot": {

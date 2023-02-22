@@ -4,8 +4,8 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "effect_more_elites"
-text_key = ""
+key = ""
+text_key = "DIFF_D77_NOTE_DMG_GAINS"
 value = 0
 custom_key = ""
 storage_method = 0

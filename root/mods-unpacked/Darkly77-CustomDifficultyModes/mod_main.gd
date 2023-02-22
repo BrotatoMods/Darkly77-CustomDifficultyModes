@@ -19,7 +19,8 @@ func _init(modLoader = ModLoader):
 func _ready():
 	var ContentLoader = get_node("/root/ModLoader/Darkly77-ContentLoader/ContentLoader")
 
-	# Difficulties
+	# Add content
+	ContentLoader.load_data(dir + "content_data/items.tres", DIFFTEST_LOG)
 	ContentLoader.load_data(dir + "content_data/difficulties.tres", DIFFTEST_LOG)
 
 	ModLoaderUtils.log_info("Done", DIFFTEST_LOG)

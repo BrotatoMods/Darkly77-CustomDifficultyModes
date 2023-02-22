@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/asssets/mod_customdifficultymodes_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/difficulties/difficulty_data.gd" type="Script" id=2]
+[ext_resource path="res://items/difficulties/2/difficulty_2_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://items/difficulties/2/difficulty_2_effect_0.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/effects_shared/note_effect_custom.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/effects_shared/null_effect_max_hp_bad.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/difficulties/diff_nohit_d2/diff_nohit_d2_effect_starting_item.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "diff_d77_no_hit_d2"
+unlocked_by_default = true
+icon = ExtResource( 1 )
+name = "DIFF_D77_NOHIT_D2"
+tier = 2
+value = 2
+effects = [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ]
+tracking_text = ""

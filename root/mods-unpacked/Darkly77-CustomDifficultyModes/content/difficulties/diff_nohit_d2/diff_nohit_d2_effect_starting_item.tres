@@ -4,10 +4,10 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "enemy_health"
-text_key = "EFFECT_STRONGER_ENEMIES"
-value = 26
-custom_key = ""
+key = "item_diff_d77_nohit_d2"
+text_key = "[EMPTY]"
+value = 1
+custom_key = "bfx_starting_difficulty_item"
 storage_method = 0
 effect_sign = 3
 custom_args = [  ]
