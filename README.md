@@ -29,6 +29,8 @@ This means that `value` must be >= `0`, or nothing will spawn. Using `-1` makes 
 
 ### Showing the Difficulty
 
+EDIT: The approach outlined below doesn't work, because the `starting_item` effect is applied after you select a weapon -- see `on_element_pressed` in *weapon_selection.gd*. So if you use it on a difficulty, it's too late for the effect to be applied. The fix for this would be to add a custom version of `starting_item` that triggers after you select a difficulty.
+
 The custom difficulty isn't shown anywhere. For example, the pause menu still says "Danger 3" if `value` is `3`, even if you're using a custom difficulty.
 
 The effects *are* saved on your run, so if you quit and reload then they're still there, but there's no indication of which custom difficulty you're currently using.
