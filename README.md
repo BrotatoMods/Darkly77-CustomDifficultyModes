@@ -2,9 +2,10 @@
 
 Adds some hardcore custom difficulty modes:
 
-- Heaven or Hell
-- No-Hit (D2)
-- No-Hit (D5)
+- D2 - Heaven or Hell
+- D2 - No-Hit
+- D5 - No-Hit
+- D5 - No Stand-Still
 
 "Heaven or Hell" is a no-hit difficulty, but you also gain +100% Damage modifications.
 
@@ -34,17 +35,16 @@ This is important to note because this is different to how every other gameplay-
 
 ### Showing the Difficulty
 
-The custom difficulty isn't shown anywhere. For example, the pause menu still says "Danger 3" if `value` is `3`, even if you're using a custom difficulty.
+By default, the custom difficulty isn't shown anywhere. For example, the pause menu still says "Danger 3" if `value` is `3`, even if you're using a custom difficulty.
 
 The effects *are* saved on your run, so if you quit and reload then they're still there, but there's no indication of which custom difficulty you're currently using.
 
 One approach to fix this would be to make it so that custom difficulties add an item to your inventory, and that item has all the special effects:
 
-- You could still list the effects in the difficulty's effects with *null_effect.gd*.
-- Then you can use a starting item effect (`effect_starting_item`) to add your custom item.
-    - **EDIT:** This won't work, because the `starting_item` effect is applied after you select a weapon -- see `on_element_pressed` in *weapon_selection.gd*.
-    - So if you use it on a difficulty, it's too late for the effect to be applied.
-    - The fix for this would be to add a custom version of `starting_item` (eg. `starting_difficulty_item`) that triggers after you select a difficulty.
+- You can still list the effects in the difficulty's effects with *null_effect.gd*, using custom translated strings.
+- Then you can use a starting item effect to add your custom item.
+    - Vanilla's `effect_starting_item` doesn't work for this, because it adds items after the weapon selection, which is too soon for the difficulty's item to be added.
+    - However, BFX now offers custom effects that *can* do this. [See here](https://github.com/BrotatoMods/Brotato-BFX#custom-difficulties) in the BFX readme for more info.
 
 ## Screenshots
 
