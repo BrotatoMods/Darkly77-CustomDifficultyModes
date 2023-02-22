@@ -2,10 +2,13 @@ key,en
 DIFF_D77_NOHIT_D2,No-Hit (D2)
 DIFF_D77_NOHIT_D5,No-Hit (D5)
 DIFF_D77_HEAVEN_HELL_D2,Heaven or Hell
+DIFF_D77_NO_STANDSTILL,No Stand-Still
 ITEM_DIFF_D77_NOHIT_D2,No-Hit (D2)
 ITEM_DIFF_D77_NOHIT_D5,No-Hit (D5)
 ITEM_DIFF_D77_HEAVEN_HELL_D2,Heaven or Hell
+ITEM_DIFF_D77_NO_STANDSTILL,No Stand-Still
+ITEM_DIFF_D77_NO_STANDSTILL_EFFECT,You can't stop moving
 DIFF_D77_NOTE_CUSTOM,[color=#555555]Custom:[/color]
-DIFF_D77_NOTE_DAMAGE,"[color=#555555]''Damage modifications'' refers to all forms of damage (%Damage, Ranged, Melee, Elemental, Explosion, Piercing, Bounce)[/color]"
+DIFF_D77_NOTE_DAMAGE,"[color=#555555]''Damage modifications'' refers to all forms of damage (%Damage, Ranged, Melee, Elemental, Explosion, Piercing, Bounce), and also applies to Engineering[/color]"
 DIFF_D77_NOTE_HP_BAD,[color=red]-9999[/color] Max HP
-DIFF_D77_NOTE_DMG_GAINS,[color=#00FF00]Damage[/color] modificationsa are increased by [color=#00FF00]100%[/color]
+DIFF_D77_NOTE_DMG_GAINS,[color=#00FF00]Damage[/color] modifications are increased by [color=#00FF00]100%[/color]

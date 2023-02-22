@@ -1,14 +1,15 @@
-[gd_resource type="Resource" load_steps=5 format=2]
+[gd_resource type="Resource" load_steps=6 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
-[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/items/item_diff_heaven_hell.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/items/item_diff_no_standstill_d5.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/items/item_diff_nohit_d2.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/items/item_diff_nohit_d5.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/Darkly77-CustomDifficultyModes/content/items/item_diff_heaven_hell.tres" type="Resource" id=5]
 
 [resource]
 script = ExtResource( 1 )
 characters = [  ]
-items = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ]
+items = [ ExtResource( 5 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 2 ) ]
 weapons = [  ]
 weapons_characters = [  ]
 sets = [  ]

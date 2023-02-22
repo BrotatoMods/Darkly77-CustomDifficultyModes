@@ -12,4 +12,4 @@ storage_method = 0
 effect_sign = 3
 custom_args = [  ]
 stat_displayed = "stat_damage"
-stats_modified = [ "stat_percent_damage", "stat_ranged_damage", "stat_melee_damage", "stat_elemental_damage", "explosion_damage", "piercing_damage", "bounce_damage" ]
+stats_modified = [ "stat_percent_damage", "stat_ranged_damage", "stat_melee_damage", "stat_elemental_damage", "explosion_damage", "piercing_damage", "bounce_damage", "stat_engineering" ]
